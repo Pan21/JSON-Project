@@ -1,15 +1,19 @@
 {
-  "name": "jsonstarter",
+  "name": "json-start",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass scss/styles.scss css/styles.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    
   },
   "author": "zachary roberts",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "description": ""
 }

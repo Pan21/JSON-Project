@@ -9,7 +9,6 @@
 
   "Pages": [
     { "pageName": "home", "content": "<h1>HOME</h1><div>HI</div>" },
-
     { "pageName": "about", "content": "<h1>ABOUT</h1>" },
     { "pageName": "products", "content": "<h1>PRODUCTS</h1>" },
     { "pageName": "gallery", "content": "<h1>GALLERY</h1>" },

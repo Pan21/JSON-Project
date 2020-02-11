@@ -1,19 +1,19 @@
 var PROVIDER = (function() {
   var _allData = {};
   var _currentPage = '';
+
   var _getData = function(callback) {
-    $.getJSON("data/data.json", function(data) {
-      console.log("success ", data);
+    $.getJSON('data/data.json', function(data) {
+      // this is when it is complete
+      // console.log('success ', data);
     })
       .fail(function(error) {
-        console.log(error.status, +" " + error.statusText);
+        //   console.log('Whoops ', error.status + ' ' + error.statusText);
       })
-
       .done(function(data) {
-        console.log(("done ", data.MainNav));
         _allData = data;
         callback();
-        //populateNav(data.MainNav);
+        // populateNav(data.MainNav);
       });
   };
 
@@ -35,7 +35,6 @@ var PROVIDER = (function() {
   var _getCurrentPageName = function() {
     return _currentPage;
   };
-
 
   return {
     getData: _getData,
