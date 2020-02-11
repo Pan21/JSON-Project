@@ -1,4 +1,4 @@
-# n215 Repo for Class
+# n315 Repo for Class
 
 ## This is the home folder for all my Projects
 
@@ -8,10 +8,4 @@ This was done using markdown language syntax.
 
 URL for Homework files:
 
-[Homework 1: ](https://pan21.github.io/215-repo-s/Eventsy-Hero/)
-
-[Homework 2: ](https://pan21.github.io/215-repo-s/travelfy-hero/)
-
-[Homework 4: ](https://pan21.github.io/215-repo-s/travelfy-hero/)
-
-[Homework 4: ](https://pan21.github.io/215-repo-s/travelfy-hero/)
+[Homework 1: ](https://pan21.github.io/JSON-Project/JSONSTARTER/index.html)
