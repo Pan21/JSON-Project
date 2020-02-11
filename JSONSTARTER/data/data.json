@@ -1,0 +1,17 @@
+{
+  "MainNav": [
+    { "path": "home", "linkName": "Home" },
+    { "path": "about", "linkName": "About" },
+    { "path": "products", "linkName": "Products" },
+    { "path": "gallery", "linkName": "Gallery" },
+    { "path": "contact", "linkName": "Contact" }
+  ],
+
+  "Pages": [
+    { "pageName": "home", "content": "<h1>HOME</h1><div>HI</div>" },
+    { "pageName": "about", "content": "<h1>ABOUT</h1>" },
+    { "pageName": "products", "content": "<h1>PRODUCTS</h1>" },
+    { "pageName": "gallery", "content": "<h1>GALLERY</h1>" },
+    { "pageName": "contact", "content": "<h1>CONTACT</h1>" }
+  ]
+}
