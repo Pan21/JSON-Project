@@ -1,17 +1,16 @@
 {
   "MainNav": [
     { "path": "home", "linkName": "Home" },
-    { "path": "about", "linkName": "About" },
-    { "path": "products", "linkName": "Products" },
-    { "path": "gallery", "linkName": "Gallery" },
-    { "path": "contact", "linkName": "Contact" }
+    { "path": "about", "linkName": "The Burning Crusade" },
+    { "path": "products", "linkName": "Wrath Of The Lich King" },
+    { "path": "Social Media", "linkName": "<div class='sMedLinks'><a href='https://www.instagram.com' target='_blank'><img src='../img/insta.jpg'></a><a href='https://www.facebook.com' target='_blank'><img src='../img/fbIcon.png'</a></div>" }
   ],
 
   "Pages": [
-    { "pageName": "home", "content": "<h1>HOME</h1><div>HI</div>" },
+    { "pageName": "home", "content": "<div class='Container'><div class='title'><h1>World Of Warcraft</h1></div><div class=text>   <p>World of Warcraft, often referred to as WoW, is a massively multiplayer online roleplaying game (MMORPG) set in the Warcraft universe. It is developed by Blizzard Entertainment and contains multiple expansions. The initial release is now sometimes known as vanilla WoW or classic WoW.</p><p>As of 2010, World of Warcraft had more than 12 million monthly subscribers,[1][citation needed] and still holds the Guinness World Record for the world's largest and most popular MMORPG since 2009.[2] It also continues its further story development throughout its franchising, other than online media, such as Warcraft novels, comics, manga, RPG books, TCG, board games, and the Warcraft movie. Characters from the franchise have been included in other Blizzard games, including Hearthstone and Heroes of the Storm.</p></div><div class='img1'></div></div>"},
 
-    { "pageName": "about", "content": "<h1>ABOUT</h1>" },
-    { "pageName": "products", "content": "<h1>PRODUCTS</h1>" },
+    { "pageName": "about", "content": "<div class='Container'><div class='title'><h1>The Burning Crusade</h1></div><div class=text>   <p>World of Warcraft: The Burning Crusade (aka TBC), the first expansion for World of Warcraft, was announced on October 28th, 2005 and released on January 16th, 2007 in North America, Europe, and Australia, February 2nd, 2007 in Korea, April 3rd, 2007 in Taiwan and Hong Kong, and September 6th, 2007 in mainland China. The main features include an increase of the level cap, the introduction of the blood elves and the draenei as playable races, and the addition of the world of Outland, along with many new zones, dungeons, items, quests, and monsters.</p></div><div class='img2'></div> <div class='text'<p>The expansion was released in standard as well as Collector's Edition packages. The Collector's Edition of The Burning Crusade includes a bonus Behind-The-Scenes DVD, an in-game Netherwhelp pet and many other exclusive extras. Installing the expansion does not break backwards compatibility — players are still able to log on to non-BC accounts using The Burning Crusade client.</p></div>  </div>"},
+    { "pageName": "products", "content": "<div class='Container'><div class='title'><h1>Wrath Of The Lich King</h1></div><div class=text>   <p>World of Warcraft: Wrath of the Lich King (colloquially known as WotLK or Wrath) is the second World of Warcraft expansion and was officially announced on August 3, 2007 at BlizzCon 2007. The majority of the expansion content takes place in Northrend and centers around the plans of the Lich King.</p><p>Content highlights include the increase of the level cap from 70 to 80, the introduction of the death knight Hero class, and new PvP/World PvP content. No additional playable races have been added, though many new NPC races were featured.</P></div><div class='img3'></div>   </div>"},
     { "pageName": "gallery", "content": "<h1>GALLERY</h1>" },
     { "pageName": "contact", "content": "<h1>CONTACT</h1>" }
   ]

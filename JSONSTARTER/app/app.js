@@ -4,6 +4,7 @@ function initNav() {
     var btnID = e.currentTarget.id;
     if (cp != btnID) {
       loadContent(btnID);
+      
     }
   });
 }
@@ -11,12 +12,18 @@ function initNav() {
 function loadContent(pageName) {
   console.log("loadContent " + pageName);
   var pageContent = PROVIDER.getPageContent(pageName);
+
+
   console.log("loadContent " + pageContent);
+
 
   $(".content").html(pageContent);
 
   initNav();
+
 }
+
+
 
 function populateNav() {
   var nav = PROVIDER.getMainNav();

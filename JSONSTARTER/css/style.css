@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 969px;
+  background-image: url(../img/back-ground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: 'Amatic SC', cursive; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  position: relative;
+  z-index: 99;
+  width: 70%;
+  height: 92px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 15%; }
+  nav a {
+    font-size: x-large;
+    text-decoration: none;
+    color: darkblue; }
+  nav .sMedLinks img {
+    width: 50px;
+    height: 50px; }
+
+.Container {
+  width: 100%;
+  height: 600px;
+  background-color: lightslategray;
+  justify-content: center;
+  opacity: 0.9;
+  display: flex;
+  position: relative; }
+  .Container .title {
+    position: fixed;
+    height: 50px;
+    z-index: 25;
+    font-size: x-large;
+    justify-content: center;
+    display: block;
+    opacity: 1; }
+  .Container .text {
+    padding-top: 80px;
+    width: 30%;
+    display: block;
+    opacity: 1;
+    font-weight: bold; }
+  .Container .img1 {
+    opacity: 1;
+    margin-top: 10%;
+    background-image: url(../img/WOWlogo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px; }
+  .Container .img2 {
+    opacity: 1;
+    justify-content: right;
+    margin-top: 12%;
+    background-image: url(../img/TBCLogo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px; }
+  .Container .img3 {
+    opacity: 1;
+    justify-content: right;
+    margin-top: 10%;
+    background-image: url(../img/WrathLogo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px; }

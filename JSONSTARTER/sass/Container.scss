@@ -1,0 +1,73 @@
+.Container{
+
+    width: 100%;
+    height: 600px;
+    background-color: lightslategray;
+    justify-content: center;
+    opacity: 0.9;
+
+    display: flex;
+    position: relative;
+
+    .title{
+        position: fixed;
+        height: 50px;
+        z-index: 25;
+        //padding: 25px;
+        font-size: x-large;
+        justify-content: center;
+        display: block;
+        opacity: 1;
+    }
+
+    .text{
+        padding-top: 80px;
+        //position: fixed;
+        width: 30%;
+        display: block;
+        opacity: 1;
+        font-weight: bold;
+
+    }
+
+    .img1{
+
+
+        opacity: 1;
+        margin-top: 10%;
+        
+        background-image: url(../img/WOWlogo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+    }
+    .img2{
+        opacity: 1;
+        justify-content: right;
+        margin-top: 12%;
+
+        
+        background-image: url(../img/TBCLogo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+    }
+
+    .img3{
+        opacity: 1;
+        justify-content: right;
+        margin-top: 10%;
+
+        
+        background-image: url(../img/WrathLogo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+    }
+}

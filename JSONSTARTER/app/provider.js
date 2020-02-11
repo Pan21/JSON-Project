@@ -3,14 +3,14 @@ var PROVIDER = (function() {
   var _currentPage = '';
   var _getData = function(callback) {
     $.getJSON("data/data.json", function(data) {
-      console.log("success ", data);
+      //console.log("success ", data);
     })
       .fail(function(error) {
-        console.log(error.status, +" " + error.statusText);
+        //console.log(error.status, +" " + error.statusText);
       })
 
       .done(function(data) {
-        console.log(("done ", data.MainNav));
+        //console.log(("done ", data.MainNav));
         _allData = data;
         callback();
         //populateNav(data.MainNav);
@@ -32,6 +32,10 @@ var PROVIDER = (function() {
     return content;
   };
 
+
+
+
+
   var _getCurrentPageName = function() {
     return _currentPage;
   };
@@ -41,6 +45,7 @@ var PROVIDER = (function() {
     getData: _getData,
     getMainNav: _getMainNav,
     getPageContent: _getPageContent,
-    getCurrentPageName: _getCurrentPageName
+    getCurrentPageName: _getCurrentPageName,
+
   };
 })();
