@@ -39,14 +39,14 @@ nav {
   nav .sMedLinks1 {
     width: 50px;
     height: 50px;
-    background-image: url(/img/insta.jpg);
+    background-image: url(../img/insta.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   nav .sMedLinks2 {
     width: 50px;
     height: 50px;
-    background-image: url(/img/fbIcon.png);
+    background-image: url(../img/fbIcon.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
