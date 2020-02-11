@@ -3,7 +3,7 @@
     { "path": "home", "linkName": "Home" },
     { "path": "about", "linkName": "The Burning Crusade" },
     { "path": "products", "linkName": "Wrath Of The Lich King" },
-    { "path": "Social Media", "linkName": "<div class='sMedLinks'><a href='https://www.instagram.com' target='_blank'><img src='img/insta.jpg'></a><a href='https://www.facebook.com' target='_blank'><img src='../img/fbIcon.png'</a></div>" }
+    { "path": "Social Media", "linkName": "<div class='sMedLinks'><a href='https://www.instagram.com' target='_blank'><img src='/img/insta.jpg'></a><a href='https://www.facebook.com' target='_blank'><img src='../img/fbIcon.png'</a></div>" }
   ],
 
   "Pages": [
